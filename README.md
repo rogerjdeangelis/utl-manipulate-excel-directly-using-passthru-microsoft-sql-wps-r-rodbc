@@ -16,7 +16,7 @@ Given two excel tables(named ranges) ,'males' and 'females' do the following  Ca
        /*   +------------+                 +------------+              | union                                                   */
        /*                                                              | select sex, avg(age) as avgAge from females group by sex*/
        /*   +-------------------------+    +-------------------------+ |                                                         */
-       /*   |     A    |   B   |   C  |    |     A    |   B   |   C  | | OUTPUT                                                  */
+       /*   |     A    |   B   |   C  |    |     F    |   G   |   H  | | OUTPUT                                                  */
        /*   +-------------------------+    +-------------------------+ |                                                         */
        /* 1 | NAME     |  SEX  |  AG  |  1 | NAME     |  SEX  |  AG  | | SD1.WANT total obs=2                                    */
        /*   +----------+-------+------+    +----------+-------+------+ |                                                         */
@@ -141,7 +141,7 @@ Given two excel tables(named ranges) ,'males' and 'females' do the following  Ca
     /*   +------------+                 +------------+                                                                        */
     /*                                                                                                                        */
     /*   +-------------------------+    +-------------------------+                                                           */
-    /*   |     A    |   B   |   C  |    |     A    |   B   |   C  |                                                           */
+    /*   |     A    |   B   |   C  |    |     F    |   G   |   H  |                                                           */
     /*   +-------------------------+    +-------------------------+                                                           */
     /* 1 | NAME     |  SEX  |  AG  |  1 | NAME     |  SEX  |  AG  |                                                           */
     /*   +----------+-------+------+    +----------+-------+------+                                                           */
